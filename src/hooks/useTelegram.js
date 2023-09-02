@@ -10,5 +10,11 @@ export default function () {
       tg.MainButton.show();
     }
   };
-  return { tg, user: tg.initDataUnsafe?.user, onClose, onToggleButton };
+  return {
+    tg,
+    user: tg.initDataUnsafe?.user,
+    queryId: tg.initDataUnsafe?.query_id,
+    onClose,
+    onToggleButton,
+  };
 }
