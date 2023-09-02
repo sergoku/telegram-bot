@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 const tg = window.Telegram.WebApp;
 export default function () {
   const onClose = () => {
